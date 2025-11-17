@@ -1,13 +1,8 @@
-// src/App.tsx
-
-import ContactForm from "../src/components/TaskManager";
+import TaskManager from "./components/TaskManager/TaskManager";
+import "./App.css";
 
 function App() {
-  return (
-    <div>
-      <ContactForm />
-    </div>
-  );
+  return <TaskManager />;
 }
 
 export default App;

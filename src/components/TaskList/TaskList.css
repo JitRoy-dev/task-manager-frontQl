@@ -1,0 +1,22 @@
+/* Task List Styles */
+.task-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.empty-state {
+  color: #9ca3af;
+  font-style: italic;
+  text-align: center;
+  padding: 40px;
+  background: #f9fafb;
+  border-radius: 12px;
+  border: 2px dashed #e5e7eb;
+  font-size: 16px;
+}
+
+body.dark-mode .empty-state {
+  background: #2a2a3e;
+  border-color: #3a3a4e;
+  color: #888;
+}
